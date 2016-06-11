@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     var nsTimer = NSTimer()
     var time = 30
     override func viewDidLoad() {
+        //asasdasd
         Timer.text = String(time)
         super.viewDidLoad()
         nsTimer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(ViewController.update), userInfo: nil, repeats: true)
